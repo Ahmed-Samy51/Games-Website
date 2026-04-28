@@ -1,0 +1,114 @@
+@media (max-width: 992px) {
+
+  .hero h1 {
+    font-size: 2.8rem !important;
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
+  }
+
+  .hero .row {
+    text-align: center;
+  }
+
+  .hero-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    gap: 10px;
+  }
+
+  .our-cards {
+    height: 200px;
+  }
+
+  .our-custom {
+    min-height: 140px;
+  }
+
+  .dev-back {
+    height: 250px;
+  }
+}
+@media (max-width: 768px) {
+
+
+  .hero h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .hero {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .hero .btn {
+    width: 100%;
+  }
+
+  .our-cards {
+    height: 180px;
+  }
+
+  .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .our-custom {
+    min-height: 120px;
+  }
+
+  .dev-side-text {
+    display: none;
+  }
+
+  .dev-back {
+    height: 220px;
+  }
+
+  .contact-info-card {
+    text-align: center;
+  }
+
+  .footer .row {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+
+  .hero h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .our-cards {
+    height: 160px;
+  }
+
+  .d-flex.flex-wrap {
+    flex-direction: column;
+  }
+
+  .hover-able:hover {
+    transform: none;
+  }
+
+  .marquee-track img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dev-back {
+    height: 200px;
+  }
+}
